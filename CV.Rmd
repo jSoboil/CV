@@ -27,15 +27,6 @@ library(extrafont)
 library(ggridges)
 library(data.table)
 
-PDF_EXPORT <- FALSE
-# ======================================================================
-# Now we source two external scripts. One contains functions for building the
-# text output and the other loads up our data from either googlesheets or csvs
-
-# Functions for building sections from CSV data
-source('parsing_functions.R') 
-
-# Want to go oldschool with just a csv?
 skills        <- read_csv("csvs/language_skills.csv")
 ```
 
@@ -78,9 +69,9 @@ ggplot(data, aes(x = Dens)) +
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> [Email/jSoboil](soboil.joshua@gmail.com)
-- <i class="fa fa-github"></i> [github.com/jSoboil](https://github.com/jSoboil)
-- <i class="fa fa-linkedin"></i> [LinkedIn/jSoboil](https://www.linkedin.com/in/joshua-soboil-067351172/)
+- <i class="fa fa-envelope"></i> [Email](soboil.joshua@gmail.com)
+- <i class="fa fa-github"></i> [Github Profile](https://github.com/jSoboil)
+- <i class="fa fa-linkedin"></i> [LinkedIn Profile](https://www.linkedin.com/in/joshua-soboil-067351172/)
 - <i class="fa fa-phone"></i> +27 76 790 5751
 - <i class="fa fa-home"></i> Cape Town, ZAR
 
