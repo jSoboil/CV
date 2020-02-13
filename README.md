@@ -1,5 +1,5 @@
 # CV/Resume
-A pagedown generated CV. This project template is made up of a combination of two template sources, with a mix of some of my 
+A CV generated with the R package Pagedown. This project template is made up of a combination of two template sources, with a mix of some of my 
 own coding solutions.
 
 ## Disclaimer
