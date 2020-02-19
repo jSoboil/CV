@@ -8,9 +8,9 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
-```{r, include=FALSE}
+```{r, echo=FALSE, include=FALSE}
 knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
@@ -34,7 +34,7 @@ skills        <- read_csv("csvs/language_skills.csv")
 
 Aside
 ================================================================================
-```{r, include=FALSE}
+```{r, echo=FALSE, include=FALSE}
 set.seed(55)
 data <- data.frame(a = rnorm(n = 10000, mean = 0, sd = 1.6), 
                    b = rnorm(n = 10000, mean = -.2, sd = 1.5),
@@ -51,7 +51,7 @@ data <- melt(data)
 colnames(data) <- c("Cat", "Dens")
 
 ggplot(data, aes(x = Dens)) + 
-  geom_line(aes(color = Cat), stat = "density", size = 1, alpha = 0.8, show.legend = FALSE) +
+  geom_line(aes(color = Cat), stat = "density", size = 1, alpha = .4, show.legend = FALSE) +
     theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(), 
         axis.ticks.y = element_blank(), panel.grid.major.y = element_blank(),
         panel.grid.major.x = element_blank(), axis.line.x = element_blank(),
@@ -83,8 +83,8 @@ Language Skills {#skills}
 ```{r, echo=FALSE, include=FALSE}
 skills %>%
 ggplot(aes(skill, level)) +
-  geom_bar(aes(x = reorder(skill, level), y = level, alpha = .5),
-           stat = "identity", show.legend = FALSE, fill = "grey81") +
+  geom_bar(aes(x = reorder(skill, level), y = level, alpha = .1),
+           stat = "identity", show.legend = FALSE, fill = "grey84") +
   theme_gdocs(base_size = 15) +
   theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(), 
         axis.ticks.y = element_blank(), panel.grid.major.y = element_blank(), 
@@ -112,7 +112,7 @@ Disclaimer {#disclaimer}
 
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-View project code [here](https://github.com/jSoboil/CV/tree/master)
+View project code [**here**](https://github.com/jSoboil/CV/tree/master)
 
 Last updated on `r Sys.Date()`.
 
@@ -178,7 +178,7 @@ Cape Town, ZAR
 Jan 2019 - present
 
 ::: concise
-- A registered NPO(226-728) focused on the reduction of period poverty and stigma.
+- A registered NPO (226-728) focused on the reduction of period poverty and stigma.
 - Lead capacity development strategist.
 - Ensuring the establishment and development of sustainable funding networks and strategies.
 :::
@@ -207,7 +207,7 @@ Cape Town, ZAR
 Jul 2011 - Jul 2011
 
 ::: concise
-- Capturing of first year quarter data for worker mobile health programmes across Western Cape.
+- Capturing of first year quarter data for worker mobile health programmes.
 :::
 
 Selected Certificates {data-icon=certificate}
@@ -278,13 +278,13 @@ Received mentor training to help orientate first year UCT MPH students.
 
 ### Mentor
 
-Ikhamva Youth
+Inkhamva Youth
 
 Cape Town, ZAR
 
 2019
 
-Provided career mentorship to underprivileged matriculatant learners enrolled in the Inkhamva Youth programme.
+Provided career mentorship to underprivileged matriculant learners enrolled in the Inkhamva Youth programme.
 
 ### Volunteer
 
