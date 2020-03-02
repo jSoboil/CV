@@ -27,7 +27,7 @@ library(extrafont)
 library(ggridges)
 library(data.table)
 
-skills        <- read_csv("csvs/language_skills.csv")
+skills <- read_csv("csvs/language_skills.csv")
 ```
 
 
@@ -77,7 +77,7 @@ Contact {#contact}
 
 
 
-Language Skills {#skills}
+Programming Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r, echo=FALSE, include=FALSE}
@@ -126,8 +126,7 @@ Joshua Soboil {#title}
 
 ### Health Economist
 
-Joshua is seeking to develop his career in the Health Economics consultancy field. He is interested in Health Technology Assessment and other HEOR and Market Access roles.
-
+Joshua is seeking to develop his career in the Health Economics and Outcomes Research field. He is particularly interested in developing cost-effectiveness models and other roles related to Health Technology Assessment.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -140,7 +139,7 @@ Cape Town, ZAR
 
 2019 - 2020
 
-Thesis: A Framework for Incorporating a Fully-Integrated Bayesian Approach to Cost-Effectiveness Evaluations for Low- and Middle-Income Country Contexts
+Thesis: A Decision Framework for Conducting Comprehensive Decision Analytic Modelling in Middle-Income Country Contexts
 
 ### Stellenbosch University
 
@@ -150,7 +149,7 @@ Stellenbosch, ZAR
 
 2018
 
-Thesis: Astronomy in the Age of Big Data [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf)
+Thesis: Astronomy in the Age of Big Data. [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf).
 
 Research conducted under the guidance of the South African Research Chair in the Sociology of Land, Environment and Sustainable Development.
 
@@ -175,12 +174,12 @@ Periods For Hope
 
 Cape Town, ZAR
 
-Jan 2019 - present
+Jan 2019 - Dec 2020
 
 ::: concise
 - A registered NPO (226-728) focused on the reduction of period poverty and stigma.
-- Lead capacity development strategist.
-- Ensuring the establishment and development of sustainable funding networks and strategies.
+- Led capacity development. 
+- Ensured the establishment and development of sustainable funding networks and strategies for the future growth of the organisation.
 :::
 
 ### Associate Consultant
@@ -197,7 +196,6 @@ Sep 2018 - Mar 2019
 - Focused on Service Delivery and government accountability; at both local and national levels.
 :::
 
-
 ### Data Capturer
 
 SACTWU Worker Health
@@ -207,8 +205,9 @@ Cape Town, ZAR
 Jul 2011 - Jul 2011
 
 ::: concise
-- Capturing of first year quarter data for worker mobile health programmes.
+- Captured mobile clinic data.
 :::
+
 
 Selected Certificates {data-icon=certificate}
 --------------------------------------------------------------------------------
@@ -261,6 +260,7 @@ Stellenbosch, ZAR
 2018
 
 Awarded by the National Research Chair of Sociology of Land, Environment and Sustainable Development.
+
 
 
 Volunteering {data-icon=hand-paper}
