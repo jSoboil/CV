@@ -127,7 +127,11 @@ Joshua Soboil {#title}
 
 ### Health Economist
 
-Joshua is seeking to develop his career in the Health Economics and Outcomes Research field. He is particularly interested in developing cost-effectiveness models and other roles related to Health Technology Assessment.
+Seeking to develop career in the HEOR field. Undergraduate degree provided a mature and holistic understanding of socio-economic processes. An eye for detail and deep intrigue for statistics and economics spurred on the development of skills that were more than required for Master's. Thus, has additionally required deep quantitative skills with a high programming proficiency. 
+
+From having experience in diverse backgrounds, provides a uniquely diverse skill set. Particularly interested in developing cost-effectiveness models and other HTA roles.
+
+
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -140,17 +144,17 @@ Cape Town, ZAR
 
 2019 - 2020
 
-Thesis: A Decision Framework for Conducting Comprehensive Decision Analytic Modelling in Middle-Income Country Contexts
+Thesis title: A Decision Framework for Conducting Comprehensive Decision Analytic Modelling in Middle-Income Country Contexts.
 
 ### Stellenbosch University
 
-BA(Hons.), Sociology
+BA(Hons), Sociology
 
 Stellenbosch, ZAR
 
 2018
 
-Thesis: Astronomy in the Age of Big Data. [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf).
+Thesis title: Astronomy in the Age of Big Data. [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf).
 
 Research conducted under the guidance of the South African Research Chair in the Sociology of Land, Environment and Sustainable Development.
 
@@ -162,11 +166,11 @@ Stellenbosch, ZAR
 
 2014 - 2017
 
-Majors in Sociology and Psychology, with a minor in Philosophy and exposure to undergraduate economics
+Majors in Sociology and Psychology, with a minor in Philosophy and exposure to undergraduate economics.
 
   
 
-Professional Experience {data-icon=suitcase}
+Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ### Development Director
@@ -179,8 +183,8 @@ Jan 2019 - Dec 2020
 
 ::: concise
 - A registered NPO (226-728) focused on the reduction of period poverty and stigma.
-- Led capacity development. 
-- Ensured the establishment and development of sustainable funding networks and strategies for the future growth of the organisation.
+- Led capacity development.
+- Ensured establishment and development of sustainable funding networks and strategies for the future growth of the organisation.
 :::
 
 ### Associate Consultant
@@ -192,21 +196,9 @@ Cape Town, ZAR
 Sep 2018 - Mar 2019
 
 ::: concise
+- Reviewed South African Community Based Monitoring (CBM) tools; at both local and national levels.
 - Qualitative research role.
-- Reviewed South African Community Based Monitoring (CBM) tools. 
-- Focused on Service Delivery and government accountability; at both local and national levels.
-:::
-
-### Data Capturer
-
-SACTWU Worker Health
-
-Cape Town, ZAR
-
-Jul 2011 - Jul 2011
-
-::: concise
-- Captured mobile clinic data.
+- Data collection and analysis.
 :::
 
 
@@ -265,7 +257,7 @@ Awarded by the National Research Chair of Sociology of Land, Environment and Sus
 
 
 
-Volunteering {data-icon=hand-paper}
+Selected Volunteering {data-icon=hand-paper}
 --------------------------------------------------------------------------------
 
 ### Peer Mentor
