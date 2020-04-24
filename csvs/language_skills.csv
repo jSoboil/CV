@@ -1,8 +1,7 @@
 skill,level,total,
 R,5,5,
-BUGS, 3.5,5,
-JAGS, 4.3,5,
+BUGS/JAGS, 4.3,5,
 STAN, 2.5,5,
 Stata, 4,5,
 Tableau, 2,5,
-Excel, 3,5
+Excel, 3.6,5
