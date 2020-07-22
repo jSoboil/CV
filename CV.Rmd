@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
   echo = FALSE
 )
 
-setwd(dir = "/Users/joshuamusson/Desktop/Analytics/R/CV_resume/")
+setwd(dir = "/Users/joshuamusson/Desktop/Analytics/R/CV")
 
 library(glue)
 library(tidyverse)
@@ -36,16 +36,16 @@ Aside
 ================================================================================
 ```{r, echo=FALSE, include=FALSE}
 set.seed(55)
-data <- data.frame(a = rnorm(n = 10000, mean = 0, sd = 1.6), 
-                   b = rnorm(n = 10000, mean = -.2, sd = 1.5),
-                   c = rnorm(n = 10000, mean = -.6, sd = 1.4), 
-                   d = rnorm(n = 10000, mean = -1, sd = 1.2),
-                   e = rnorm(n = 10000, mean = -1.4, sd = 1),
-                   f = rnorm(n = 10000, mean = -1.8, sd = .8),
-                   g = rnorm(n = 10000, mean = -2.2, sd = .6),
-                   h = rnorm(n = 10000, mean = -2.4, sd = .5),
-                   i = rnorm(n = 10000, mean = -2.8, sd = .4),
-                   j = rnorm(n = 10000, mean = -3, sd = .3))
+data <- data.frame(a = rnorm(n = 100000, mean = 0, sd = 1.6), 
+                   b = rnorm(n = 100000, mean = -.2, sd = 1.5),
+                   c = rnorm(n = 100000, mean = -.6, sd = 1.4), 
+                   d = rnorm(n = 100000, mean = -1, sd = 1.2),
+                   e = rnorm(n = 100000, mean = -1.4, sd = 1),
+                   f = rnorm(n = 100000, mean = -1.8, sd = .8),
+                   g = rnorm(n = 100000, mean = -2.2, sd = .6),
+                   h = rnorm(n = 100000, mean = -2.4, sd = .5),
+                   i = rnorm(n = 100000, mean = -2.8, sd = .4),
+                   j = rnorm(n = 100000, mean = -3, sd = .3))
 
 data <- melt(data)
 colnames(data) <- c("Cat", "Dens")
@@ -60,7 +60,7 @@ ggplot(data, aes(x = Dens)) +
   scale_color_grey() +
   theme_void() +
   ggsave(filename = "myLogo.png", bg = "transparent")
-```
+``` %>% 
 
 ![logo](myLogo.png){width=100%}
 
@@ -89,7 +89,7 @@ ggplot(aes(skill, level)) +
   theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(), 
         axis.ticks.y = element_blank(), panel.grid.major.y = element_blank(), 
         panel.grid.major.x = element_blank(), axis.line.x = element_blank(), 
-        axis.text.y = element_text(face = "bold", size = 20, family = "Courier"), 
+        axis.text.y = element_text(face = "bold", size = 20, family = "Avenir Book"), 
         plot.background = element_rect(fill = "transparent", colour = NA)) +
   ylab("") +
   xlab("") +
@@ -111,9 +111,9 @@ References {#references}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+This résumé was made with the R package [*pagedown*](https://github.com/rstudio/pagedown).
 
-View project code [**here**](https://github.com/jSoboil/CV/tree/master)
+View project code [*here*](https://github.com/jSoboil/CV/tree/master)
 
 Last updated on `r Sys.Date()`.
 
@@ -127,7 +127,7 @@ Joshua Soboil {#title}
 
 ### Health Economist
 
-Seeking to develop career in the HEOR field. Undergraduate degree provided a mature and holistic understanding of complex socio-economic systems. An eye for detail coupled with deep intrigue for statistics and economics spurred on the development of skills over and above required for Master's. Thus, has deep health economic modelling skills with a high programming proficiency. 
+Seeking to develop career in the HEOR field. Undergraduate degree provided a mature and holistic understanding of complex socio-economic systems. An eye for detail coupled with deep intrigue for statistics and economics spurred on the development of skills over and above required for Master's. Thus, has deep decision modelling skills with high statistical programming proficiency. 
 
 Experience in varied backgrounds, with a passion for continuous learning, provides a uniquely diverse skill set. Particularly interested in developing cost-effectiveness models and other HTA roles.
 
