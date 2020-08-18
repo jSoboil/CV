@@ -60,7 +60,7 @@ ggplot(data, aes(x = Dens)) +
   scale_color_grey() +
   theme_void() +
   ggsave(filename = "myLogo.png", bg = "transparent")
-``` %>% 
+```
 
 ![logo](myLogo.png){width=100%}
 
@@ -111,7 +111,7 @@ References {#references}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This résumé was made with the R package [*pagedown*](https://github.com/rstudio/pagedown).
+This CV was created using the R package [*pagedown*](https://github.com/rstudio/pagedown).
 
 View project code [*here*](https://github.com/jSoboil/CV/tree/master)
 
@@ -144,7 +144,7 @@ Cape Town, ZAR
 
 2019 - 2020
 
-Thesis title: A Framework for Incorporating a Fully-Integrated Bayesian Approach to Cost-Effectiveness Evaluation in a Middle-Income Country Context.
+Thesis title: A Framework for Incorporating a Bayesian Simulation Approach to Cost-Effectiveness Analysis in Middle-Income Country Contexts
 
 ### Stellenbosch University
 
