@@ -243,7 +243,8 @@ A research ethics certificate course provided by the Collaborative Institutional
 [View certificate](https://www.citiprogram.org/verify/?wd09fbf64-1a5e-476b-ab1d-82c7b5a8a61c-32582541)
 
 
-Awards {data-icon=trophy}
+
+Selected Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
 
 ### NRF Health Economics Bursary
