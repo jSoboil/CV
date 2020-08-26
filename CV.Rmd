@@ -144,7 +144,7 @@ Cape Town, ZAR
 
 2019 - 2020
 
-Thesis title: A Framework for Incorporating a Bayesian Simulation Approach to Cost-Effectiveness Analysis in Middle-Income Country Contexts
+Thesis title: A Framework for Incorporating a Bayesian Posterior Simulation Approach to Health Economic Evaluation in Middle-Income Country Contexts
 
 ### Stellenbosch University
 
@@ -183,8 +183,7 @@ Jan 2019 - Dec 2020
 
 ::: concise
 - A registered NPO (226-728) focused on the reduction of period poverty and stigma.
-- Led capacity development.
-- Responsible for development of sustainable funding networks and strategies ensuring future growth of the organisation.
+- Focused on capacity development as well as the establishment and development of sustainable funding networks.
 :::
 
 ### Associate Consultant
