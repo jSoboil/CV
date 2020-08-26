@@ -206,6 +206,18 @@ Sep 2018 - Mar 2019
 Selected Certificates {data-icon=certificate}
 --------------------------------------------------------------------------------
 
+### Essentials of Global Health
+
+Short course
+
+coursera.com, Online
+
+2020
+
+A course focused on the topics of health systems issues, the linkages between health and development, and health matters related to global interdependence.
+
+[View certificate](https://www.coursera.org/account/accomplishments/certificate/MC7C4Z86KB8F)
+
 ### Health Systems Strengthening
 
 Short course
@@ -216,7 +228,7 @@ futurelearn.com, Online
 
 In partnership with the Nossal Institute for Global Health and UNICEF. The course explored health systems concepts, structure, function and approaches to strengthening health systems.
 
-[View Certificate](https://www.futurelearn.com/certificates/5nafhw3)
+[View certificate](https://www.futurelearn.com/certificates/5nafhw3)
 
 ### Human Research
 
@@ -228,8 +240,7 @@ citiprogram.org, Online
 
 A research ethics certificate course provided by the Collaborative Institutional Training Initiative (CITI), under the requirements set by the Comprehensive International Program of Research on AIDS (CIPRA).
 
-[View Certificate](https://www.citiprogram.org/verify/?wd09fbf64-1a5e-476b-ab1d-82c7b5a8a61c-32582541)
-
+[View certificate](https://www.citiprogram.org/verify/?wd09fbf64-1a5e-476b-ab1d-82c7b5a8a61c-32582541)
 
 
 Awards {data-icon=trophy}
