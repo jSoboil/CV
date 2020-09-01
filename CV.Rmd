@@ -15,9 +15,7 @@ knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
 )
-
 setwd(dir = "/Users/joshuamusson/Desktop/Analytics/R/CV")
-
 library(glue)
 library(tidyverse)
 library(ggthemes)
@@ -26,7 +24,6 @@ library(ggsci)
 library(extrafont)
 library(ggridges)
 library(data.table)
-
 skills <- read_csv("csvs/language_skills.csv")
 ```
 
@@ -46,10 +43,8 @@ data <- data.frame(a = rnorm(n = 100000, mean = 0, sd = 1.6),
                    h = rnorm(n = 100000, mean = -2.4, sd = .5),
                    i = rnorm(n = 100000, mean = -2.8, sd = .4),
                    j = rnorm(n = 100000, mean = -3, sd = .3))
-
 data <- melt(data)
 colnames(data) <- c("Cat", "Dens")
-
 ggplot(data, aes(x = Dens)) + 
   geom_line(aes(color = Cat), stat = "density", size = 1, alpha = .45, show.legend = FALSE) +
     theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(), 

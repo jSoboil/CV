@@ -1,7 +1,8 @@
-skill,level,total,
-R,5,5,
-BUGS/JAGS, 4.3,5,
-STAN, 2.5,5,
-Stata, 4,5,
-Tableau, 2,5,
-Excel, 3.6,5
+skill, level,
+R,4.8,
+BUGS/JAGS, 4.3
+STAN, 2.8,
+Stata, 3.6,
+Tableau, 2,
+Excel, 4,
+Git, 3.3
