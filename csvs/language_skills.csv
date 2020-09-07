@@ -2,8 +2,9 @@ skill, level,
 R,4.8,
 BUGS/JAGS, 4.5
 STAN, 2.8,
-Stata, 3.6,
+Stata, 3.4,
 Tableau, 2,
-Excel, 4.2,
+Exce/VBA, 4.2,
 Git, 4,
-Bash, 3.8
+Bash, 3.8,
+Zsh, 3.8
