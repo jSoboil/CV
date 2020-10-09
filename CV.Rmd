@@ -151,7 +151,9 @@ Cape Town, ZAR
 
 2019 - 2020
 
-Thesis title: A Framework for Incorporating a Bayesian Posterior Simulation Approach to Health Economic Evaluation in Middle-Income Country Contexts
+Thesis title: A Framework for Incorporating a Fully Integrated Bayesian Approach to Cost-Effectiveness Evaluation in Middle Income Country Contexts.
+
+Research centred on the exploration of a fully integrated Bayesian MCMC simulation approach to Health Economic Decision-Modelling, as well as the development of a practical framework for choosing appropriate sensitivity analysis methods in Middle-Income Country contexts.
 
 ### Stellenbosch University
 
