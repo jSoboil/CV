@@ -46,16 +46,17 @@ data <- data.frame(a = rnorm(n = 100000, mean = 0, sd = 1.6),
                    )
 data <- melt(data)
 colnames(data) <- c("Cat", "Dens")
-ggplot(data, aes(x = Dens)) + 
-  geom_line(aes(color = Cat), stat = "density", size = 1, alpha = .45, show.legend = FALSE) +
-    theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(), 
+plot <- ggplot(data, aes(x = Dens)) +
+  geom_line(aes(color = Cat), stat = "density", size = 1, alpha = .35,
+            show.legend = FALSE) +
+  theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(),
         axis.ticks.y = element_blank(), panel.grid.major.y = element_blank(),
         panel.grid.major.x = element_blank(), axis.line.x = element_blank(),
         plot.background = element_rect(fill = "transparent", colour = NA),
         panel.grid = element_blank()) +
   scale_color_grey() +
-  theme_void() +
-  ggsave(filename = "myLogo.png", bg = "transparent")
+  theme_void()
+ggsave(filename = "myLogo.png", plot = plot, bg = "transparent")
 
 # You could automate this part but it becomes hard to control the aesthetic value of the distributions as a result. For those interested in dabbling you could perhaps something like this:
 
@@ -84,29 +85,27 @@ Contact {#contact}
 - <i class="fa fa-home"></i> Cape Town, ZAR
 
 
-
 Programming Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r, echo=FALSE, include=FALSE}
-skills %>%
-ggplot(aes(skill, level)) +
+skillsbar <- skills %>%
+  ggplot(aes(skill, level)) +
   geom_bar(aes(x = reorder(skill, level), y = level, alpha = .1),
            stat = "identity", show.legend = FALSE, fill = "grey84") +
   theme_gdocs(base_size = 15) +
-  theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(), 
-        axis.ticks.y = element_blank(), panel.grid.major.y = element_blank(), 
-        panel.grid.major.x = element_blank(), axis.line.x = element_blank(), 
-        axis.text.y = element_text(face = "bold", size = 20, family = "Avenir Book"), 
+  theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(), panel.grid.major.y = element_blank(),
+        panel.grid.major.x = element_blank(), axis.line.x = element_blank(),
+        axis.text.y = element_text(face = "bold", size = 20,
+        family = "Avenir"),
         plot.background = element_rect(fill = "transparent", colour = NA)) +
   ylab("") +
   xlab("") +
-  coord_flip() +
-  ggsave(filename = "skillsBar.png", bg = "transparent")
+  coord_flip()
+ggsave(filename = "skillsBar.png", plot = skillsbar, bg = "transparent")
 ```
-
 ![skillsBar](skillsBar.png){width=100%}
-
 
 
 References {#references}
@@ -115,16 +114,14 @@ References {#references}
 *References made available upon request*
 
 
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This CV was created using the R package [*pagedown*](https://github.com/rstudio/pagedown).
+This CV was created using the R package [*pagedown*](https://github.com/rstudio/pagedown)
 
 View project code [*here*](https://github.com/jSoboil/CV/tree/master)
 
-Last updated on `r Sys.Date()`.
-
+Last updated on `r Sys.Date()`
 
 
 Main
@@ -135,10 +132,9 @@ Joshua Soboil {#title}
 
 ### Health Economist
 
-Seeking to develop career in the HEOR field. Undergraduate degree provided a mature and holistic understanding of complex socio-economic systems. An eye for detail coupled with deep intrigue for statistics and economics spurred on the development of skills over and above required for Master's. Thus, has deep decision modelling skills with high statistical programming proficiency. 
+Seeking to develop career in the HEOR field. Undergraduate degree provided a mature and holistic understanding of complex socio-economic systems. An eye for detail coupled with deep intrigue for statistics and economics spurred on the development of skills over and above required for Master's. Thus, has deep decision modelling skills with high statistical programming proficiency
 
-Experience in varied backgrounds, with a passion for continuous learning, provides a uniquely diverse skill set. Particularly interested in developing comprehensive cost-effectiveness models and other HTA roles.
-
+Experience in varied backgrounds, with a passion for continuous learning, provides a uniquely diverse skill set. Particularly interested in developing comprehensive cost-effectiveness models and other HTA roles
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -152,9 +148,9 @@ Cape Town, ZAR
 
 2019 - 2020
 
-Thesis title: A Framework for Incorporating a Fully Integrated Bayesian Approach to Cost-Effectiveness Evaluation in Middle Income Country Contexts.
+Thesis title: A Framework for Incorporating a Fully Integrated Bayesian Approach to Cost-Effectiveness Evaluation in Middle Income Country Contexts
 
-Research centred on the exploration of a fully integrated Bayesian MCMC simulation approach to Health Economic Decision-Modelling, as well as the development of a practical selection framework for choosing appropriate sensitivity analysis methods in Middle-Income Country contexts.
+Research centred on the exploration of a fully-Bayesian decision theoretic approach to Health Economic Decision-Modelling as well as the development of a selection framework for choosing appropriate sensitivity analysis methods in Middle-Income Country contexts. See code repo [here](https://github.com/jSoboil/Dissertation)
 
 ### Stellenbosch University
 
@@ -164,9 +160,9 @@ Stellenbosch, ZAR
 
 2018
 
-Thesis title: Astronomy in the Age of Big Data. [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf).
+Thesis title: Astronomy in the Age of Big Data. [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf)
 
-Research conducted under the guidance of the South African Research Chair in the Sociology of Land, Environment and Sustainable Development.
+Research conducted under the guidance of the South African Research Chair in the Sociology of Land, Environment and Sustainable Development
 
 ### Stellenbosch University
 
@@ -176,12 +172,25 @@ Stellenbosch, ZAR
 
 2014 - 2017
 
-Majors in Sociology and Psychology, with a minor in Philosophy and exposure to undergraduate economics.
-
+Majors in Sociology and Psychology, with a minor in Philosophy and exposure to undergraduate economics
   
 
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
+
+### Co-Chair: R-HTA in LMICs
+
+R-HTA
+
+r-hta.org, Online
+
+July 2021 - present
+
+::: concise
+- Founding member of R-HTA in LMICs
+- [R-HTA](https://r-hta.org/) is a consortium focused on popularising the use of R for health economics and health technology assessment (HTA)
+- Developed quarterly workshops, teaching basic to advanced health economic modelling topics
+:::
 
 ### Associate Consultant
 
@@ -189,12 +198,12 @@ IQVIA
 
 Cape Town, ZAR
 
-Jan 2020 - present
+Jan 2021 - present
 
 ::: concise
-- Focused on Health Economic and Market Value insights.
-- Developed broad knowledge of related consulting methodologies and pharmaceutical market through delivery of consulting engagements and participation in both formal and informal learning opportunities.
-- Supported the design and development of new technology solutions for HTA stakeholders.
+- Focused on Health Economic and Market Value insights
+- Developed broad knowledge of related consulting methodologies and pharmaceutical market through delivery of consulting engagements and participation in both formal and informal learning opportunities
+- Supported the design and development of new technology solutions for HTA stakeholders
 :::
 
 ### Consultant
@@ -206,8 +215,8 @@ Cape Town, ZAR
 Dec 2020 - Dec 2020
 
 ::: concise
-- Reported seasonal health care trends and other data analytic insights associated with Cipla Foundation's Shapleft clinics.
-- Provided recommendations on improving database management as well the data compliance of the Shapleft clinic programme.
+- Reported seasonal health care trends and other data analytic insights associated with Cipla Foundation's Shapleft clinics
+- Provided recommendations on improving database management as well the data compliance of the Shapleft clinic programme
 :::
 
 ### Development Director
@@ -219,8 +228,8 @@ Cape Town, ZAR
 Jan 2019 - Dec 2020
 
 ::: concise
-- A registered NPO (226-728) focused on the reduction of period poverty and stigma.
-- Focused on capacity development and the establishment of sustainable funding networks.
+- A registered NPO (226-728) focused on the reduction of period poverty and stigma
+- Focused on capacity development and establishment of sustainable funding networks
 :::
 
 ### Associate Consultant
@@ -232,11 +241,9 @@ Cape Town, ZAR
 Sep 2018 - Mar 2019
 
 ::: concise
-- Reviewed South African Community Based Monitoring (CBM) tools; at both local and national levels.
-- Qualitative research role.
-- Data collection and analysis.
+- Reviewed South African Community Based Monitoring (CBM) tools; at both local and national levels
+- Qualitative research role
 :::
-
 
 
 Selected Certificates {data-icon=certificate}
@@ -250,7 +257,7 @@ coursera.com, Online
 
 2020
 
-A course focused on the topics of health systems issues, the linkages between health and development, and health matters related to global interdependence.
+A course focused on the topics of health systems issues, the linkages between health and development, and health matters related to global interdependence
 
 [View certificate](https://www.coursera.org/account/accomplishments/certificate/MC7C4Z86KB8F)
 
@@ -262,7 +269,7 @@ futurelearn.com, Online
 
 2020
 
-In partnership with the Nossal Institute for Global Health and UNICEF. The course explored health systems concepts, structure, function and approaches to strengthening health systems.
+In partnership with the Nossal Institute for Global Health and UNICEF. The course explored health systems concepts, structure, function and approaches to strengthening health systems
 
 [View certificate](https://www.futurelearn.com/certificates/5nafhw3)
 
@@ -274,10 +281,9 @@ citiprogram.org, Online
 
 2019
 
-A research ethics certificate course provided by the Collaborative Institutional Training Initiative (CITI), under the requirements set by the Comprehensive International Program of Research on AIDS (CIPRA).
+A research ethics certificate course provided by the Collaborative Institutional Training Initiative (CITI), under the requirements set by the Comprehensive International Program of Research on AIDS (CIPRA)
 
 [View certificate](https://www.citiprogram.org/verify/?wd09fbf64-1a5e-476b-ab1d-82c7b5a8a61c-32582541)
-
 
 
 Selected Awards {data-icon=trophy}
@@ -291,7 +297,7 @@ Cape Town, ZAR
 
 2019
 
-Awarded by the National Research Chair of Health Economics.
+Awarded by the National Research Chair of Health Economics
 
 ### DST/NRF Sociology Research Bursary
 
@@ -301,8 +307,7 @@ Stellenbosch, ZAR
 
 2018
 
-Awarded by the National Research Chair of Sociology of Land, Environment and Sustainable Development.
-
+Awarded by the National Research Chair of Sociology of Land, Environment and Sustainable Development
 
 
 Selected Volunteering {data-icon=hand-paper}
@@ -316,7 +321,7 @@ Cape Town, ZAR
 
 2020
 
-Received mentor training to help orientate first year UCT MPH students.
+Received mentor training to help orientate first year UCT MPH students
 
 ### Mentor
 
@@ -326,7 +331,7 @@ Cape Town, ZAR
 
 2019
 
-Provided career mentorship to underprivileged matriculant learners enrolled in the Inkhamva Youth programme.
+Provided career mentorship to underprivileged grade 12 learners enrolled in the Inkhamva Youth programme
 
 ### Volunteer
 
@@ -336,4 +341,4 @@ Amsterdam, NL
 
 2018
 
-Assisted delegates during the International Aids Conference.
+Assisted delegates during the International Aids Conference
