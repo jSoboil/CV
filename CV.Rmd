@@ -187,7 +187,7 @@ r-hta.org, Online
 July 2021 - present
 
 ::: concise
-- Founding member of R-HTA in LMICs
+- Founding member of the R-HTA in LMICs chapter
 - [R-HTA](https://r-hta.org/) is a consortium focused on popularising the use of R for health economics and health technology assessment (HTA)
 - Developed quarterly workshops, teaching basic to advanced health economic modelling topics
 :::
