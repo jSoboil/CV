@@ -15,7 +15,6 @@ knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
 )
-setwd(dir = "/Users/joshuamusson/Desktop/Analytics/R/CV")
 library(glue)
 library(tidyverse)
 library(ggthemes)
@@ -26,8 +25,6 @@ library(ggridges)
 library(data.table)
 skills <- read_csv("csvs/language_skills.csv")
 ```
-
-
 
 Aside
 ================================================================================
@@ -77,13 +74,11 @@ ggsave(filename = "myLogo.png", plot = plot, bg = "transparent")
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-
 - <i class="fa fa-envelope"></i> [Email](mailto:soboil.joshua@gmail.com)
 - <i class="fa fa-github"></i> [Github Profile](https://github.com/jSoboil)
 - <i class="fa fa-linkedin"></i> [LinkedIn Profile](https://www.linkedin.com/in/joshua-soboil-067351172/)
 - <i class="fa fa-phone"></i> +27 76 790 5751
 - <i class="fa fa-home"></i> Cape Town, ZAR
-
 
 Programming Skills {#skills}
 --------------------------------------------------------------------------------
@@ -113,7 +108,6 @@ References {#references}
 
 *References made available upon request*
 
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
@@ -123,7 +117,6 @@ View project code [*here*](https://github.com/jSoboil/CV/tree/master)
 
 Last updated on `r Sys.Date()`
 
-
 Main
 ================================================================================
 
@@ -132,10 +125,11 @@ Joshua Soboil {#title}
 
 ### Health Economist
 
-Seeking to develop career in the HEOR field. Undergraduate degree provided a mature and holistic understanding of complex socio-economic systems. An eye for detail coupled with deep intrigue for statistics and economics spurred on the development of skills over and above required for Master's. Thus, has deep decision modelling skills with high statistical programming proficiency
+Seeking to further develop career in the HEOR field. Particularly interested in developing comprehensive cost-effectiveness models and other HTA roles. 
 
-Experience in varied backgrounds, with a passion for continuous learning, provides a uniquely diverse skill set. Particularly interested in developing comprehensive cost-effectiveness models and other HTA roles
+Undergraduate degree provided a mature and holistic understanding of complex socio-economic systems. An eye for detail coupled with deep intrigue for statistics and economics spurred on the development of skills over and above required for Master's.
 
+Thus, has deep decision modelling skills with high statistical programming proficiency. Experience in varied backgrounds, with a passion for continuous learning, provides a uniquely diverse skill set.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -150,7 +144,7 @@ Cape Town, ZAR
 
 Thesis title: A Framework for Incorporating a Fully Integrated Bayesian Approach to Cost-Effectiveness Evaluation in Middle Income Country Contexts
 
-Research centred on the exploration of a fully-Bayesian decision theoretic approach to Health Economic Decision-Modelling as well as the development of a selection framework for choosing appropriate sensitivity analysis methods in Middle-Income Country contexts. See code repo [here](https://github.com/jSoboil/Dissertation)
+- Research centred on the exploration of a fully-Bayesian decision theoretic approach to Health Economic Decision-Modelling as well as the development of a selection framework for choosing appropriate sensitivity analysis methods in Middle-Income Country contexts. See code repo [here](https://github.com/jSoboil/Dissertation)
 
 ### Stellenbosch University
 
@@ -162,7 +156,7 @@ Stellenbosch, ZAR
 
 Thesis title: Astronomy in the Age of Big Data. [Read here](https://cosmopolitankaroo.co.za/wp-content/uploads/2017/04/J-Musson-Honours-Research-Report-final-March-2019.pdf)
 
-Research conducted under the guidance of the South African Research Chair in the Sociology of Land, Environment and Sustainable Development
+- Research conducted under the guidance of the South African Research Chair in the Sociology of Land, Environment and Sustainable Development
 
 ### Stellenbosch University
 
@@ -172,7 +166,7 @@ Stellenbosch, ZAR
 
 2014 - 2017
 
-Majors in Sociology and Psychology, with a minor in Philosophy and exposure to undergraduate economics
+- Majors in Sociology and Psychology, with a minor in Philosophy and exposure to undergraduate economics
   
 
 Selected Experience {data-icon=suitcase}
@@ -186,11 +180,9 @@ r-hta.org, Online
 
 July 2021 - present
 
-::: concise
-- Founding member of the R-HTA in LMICs chapter
-- [R-HTA](https://r-hta.org/) is a consortium focused on popularising the use of R for health economics and health technology assessment (HTA)
-- Developed quarterly workshops, teaching basic to advanced health economic modelling topics
-:::
+- Founding member of R-HTA in LMICs, an LMIC-focused chapter of R-HTA
+- [R-HTA](https://r-hta.org/) is a consortium aimed at popularising R for health economics and health technology assessment (HTA)
+- Personally developed quarterly workshops, teaching basic to advanced health economic decision modelling topics
 
 ### Associate Consultant
 
@@ -200,11 +192,9 @@ Cape Town, ZAR
 
 Jan 2021 - present
 
-::: concise
-- Focused on Health Economic and Market Value insights
-- Developed broad knowledge of related consulting methodologies and pharmaceutical market through delivery of consulting engagements and participation in both formal and informal learning opportunities
-- Supported the design and development of new technology solutions for HTA stakeholders
-:::
+- Reported on HTA outcomes and market access insights
+- Developed broad knowledge of HTA review process across several jurisdictions, including the UK and EU
+- Supported design and development of new technology solutions for HTA stakeholders
 
 ### Consultant
 
@@ -214,10 +204,8 @@ Cape Town, ZAR
 
 Dec 2020 - Dec 2020
 
-::: concise
-- Reported seasonal health care trends and other data analytic insights associated with Cipla Foundation's Shapleft clinics
+- Reported on seasonal health care trends and other data analytic insights associated with Cipla Foundation's Shapleft clinics
 - Provided recommendations on improving database management as well the data compliance of the Shapleft clinic programme
-:::
 
 ### Development Director
 
@@ -227,10 +215,8 @@ Cape Town, ZAR
 
 Jan 2019 - Dec 2020
 
-::: concise
 - A registered NPO (226-728) focused on the reduction of period poverty and stigma
 - Focused on capacity development and establishment of sustainable funding networks
-:::
 
 ### Associate Consultant
 
@@ -240,11 +226,8 @@ Cape Town, ZAR
 
 Sep 2018 - Mar 2019
 
-::: concise
-- Reviewed South African Community Based Monitoring (CBM) tools; at both local and national levels
+- Reviewed South African Community Based Monitoring (CBM) tools; both local and national levels
 - Qualitative research role
-:::
-
 
 Selected Certificates {data-icon=certificate}
 --------------------------------------------------------------------------------
