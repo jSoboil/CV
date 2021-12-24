@@ -69,8 +69,6 @@ ggsave(filename = "myLogo.png", plot = plot, bg = "transparent")
 
 ![logo](myLogo.png){width=100%}
 
-
-
 Contact {#contact}
 --------------------------------------------------------------------------------
 
@@ -101,7 +99,6 @@ skillsbar <- skills %>%
 ggsave(filename = "skillsBar.png", plot = skillsbar, bg = "transparent")
 ```
 ![skillsBar](skillsBar.png){width=100%}
-
 
 References {#references}
 --------------------------------------------------------------------------------
@@ -271,7 +268,7 @@ A research ethics certificate course provided by the Collaborative Institutional
 Selected Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
 
-### NRF Health Economics Bursary
+### NRF SARChI Health Economics Bursary
 
 HEU
 
@@ -281,7 +278,7 @@ Cape Town, ZAR
 
 Awarded by the National Research Chair of Health Economics
 
-### DST/NRF Sociology Research Bursary
+### DST/NRF SARChI Sociology Research Bursary
 
 Cosmopolitan Karoo
 
