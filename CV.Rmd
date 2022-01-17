@@ -168,6 +168,29 @@ Stellenbosch, ZAR
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+### ML/AI Engineer
+
+IQVIA
+
+Cape Town, ZAR
+
+Jan 2022 - present
+
+- Conceptualised and developed ML/AI solutions for IQVIA's HTAA team
+- Deployed Shiny dashboards used for HTAA data communication
+
+### Associate Consultant
+
+IQVIA
+
+Cape Town, ZAR
+
+Jan 2021 - December 2022
+
+- Reported on HTA outcomes and market access insights
+- Developed broad knowledge of HTA review process across several jurisdictions, including the UK and EU
+- Supported design and development of new technology solutions for HTA stakeholders
+
 ### Co-Chair: R-HTA in LMICs
 
 R-HTA
@@ -179,18 +202,6 @@ July 2021 - present
 - Founding member of R-HTA in LMICs, an LMIC-focused chapter of R-HTA
 - [R-HTA](https://r-hta.org/) is a consortium aimed at popularising R for health economics and health technology assessment (HTA)
 - Personally developed quarterly workshops, teaching basic to advanced health economic decision modelling topics
-
-### Data Analyst
-
-IQVIA
-
-Cape Town, ZAR
-
-Jan 2021 - present
-
-- Reported on HTA outcomes and market access insights
-- Developed broad knowledge of HTA review process across several jurisdictions, including the UK and EU
-- Supported design and development of new technology solutions for HTA stakeholders
 
 ### Consultant
 
