@@ -168,7 +168,7 @@ Stellenbosch, ZAR
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### ML/AI Engineer
+### Data Analyst
 
 IQVIA
 
@@ -177,7 +177,7 @@ Cape Town, ZAR
 Jan 2022 - present
 
 - Conceptualised and developed ML/AI solutions for IQVIA's HTAA team
-- Deployed Shiny dashboards used for HTAA data communication
+- Deployed Shiny dashboards for HTAA data communication
 
 ### Associate Consultant
 
