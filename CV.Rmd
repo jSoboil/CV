@@ -73,11 +73,12 @@ ggsave(filename = "myLogo.png", plot = plot, bg = "transparent")
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> [Email](mailto:soboil.joshua@gmail.com)
+- <i class="fa fa-envelope"></i> [Email](mailto:joshua@soboils.com)
 - <i class="fa fa-github"></i> [Github Profile](https://github.com/jSoboil)
 - <i class="fa fa-linkedin"></i> [LinkedIn Profile](https://www.linkedin.com/in/joshua-soboil-067351172/)
-- <i class="fa fa-phone"></i> +27 76 790 5751
-- <i class="fa fa-home"></i> Cape Town, ZAR
+- <i class="fa fa-user"></i> [Personal Website](https://jsoboil.github.io)
+- <i class="fa fa-phone"></i> +44 7775 837511
+- <i class="fa fa-home"></i> London, UK
 
 Programming Skills {#skills}
 --------------------------------------------------------------------------------
@@ -131,12 +132,11 @@ Thus, has deep decision modelling skills with high statistical programming profi
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
-
 ### University of Cape Town
 
 MPH, Health Economics
 
-Cape Town, ZAR
+Cape Town, ZA
 
 2019 - 2020
 
@@ -148,7 +148,7 @@ Thesis title: A Framework for Incorporating a Fully Integrated Bayesian Approach
 
 BA(Hons), Sociology
 
-Stellenbosch, ZAR
+Stellenbosch, ZA
 
 2018
 
@@ -160,7 +160,7 @@ Thesis title: Astronomy in the Age of Big Data. [Read here](https://cosmopolitan
 
 BA, Social Dynamics
 
-Stellenbosch, ZAR
+Stellenbosch, ZA
 
 2014 - 2017
 
@@ -168,29 +168,17 @@ Stellenbosch, ZAR
 
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
+### Senior Analyst
 
-### Data Analyst
+Cogentia
 
-IQVIA
+Cambridge, UK
 
-Cape Town, ZAR
+May 2022 - present
 
-Jan 2022 - present
-
-- Conceptualised and developed ML/AI solutions for IQVIA's HTAA team
-- Deployed Shiny dashboards for HTAA data communication
-
-### Associate Consultant
-
-IQVIA
-
-Cape Town, ZAR
-
-Jan 2021 - December 2021
-
-- Reported on HTA outcomes and market access insights
-- Developed broad knowledge of HTA review process across several jurisdictions, including the UK and EU
-- Supported design and development of new technology solutions for HTA stakeholders
+- Conceptualised and implemented health economic models
+- Identified, extracted and synthesised a range of evidence to support model development
+- Contributed to high-quality project deliverables including reports, models and presentations
 
 ### Co-Chair: R-HTA in LMICs
 
@@ -204,11 +192,23 @@ July 2021 - present
 - [R-HTA](https://r-hta.org/) is a consortium aimed at popularising R for health economics and health technology assessment (HTA)
 - Personally developed quarterly workshops, teaching basic to advanced health economic decision modelling topics
 
+### Analyst
+
+IQVIA
+
+Cape Town, ZA
+
+Jan 2021 - April 2022
+
+- Supported development of ML/AI solutions for IQVIA's HTAA team
+- Developed TIBCO Spotfire integrated R scripts for HTAA data communication
+- Through project support, developed broad knowledge of HTA review process across several jurisdictions including the EU and UK
+
 ### Consultant
 
 Cipla Foundation
 
-Cape Town, ZAR
+Cape Town, ZA
 
 Dec 2020 - Dec 2020
 
@@ -219,7 +219,7 @@ Dec 2020 - Dec 2020
 
 Periods For Hope
 
-Cape Town, ZAR
+Cape Town, ZA
 
 Jan 2019 - Dec 2020
 
@@ -230,7 +230,7 @@ Jan 2019 - Dec 2020
 
 Freedom House
 
-Cape Town, ZAR
+Cape Town, ZA
 
 Sep 2018 - Mar 2019
 
@@ -239,7 +239,6 @@ Sep 2018 - Mar 2019
 
 Selected Certificates {data-icon=certificate}
 --------------------------------------------------------------------------------
-
 ### Essentials of Global Health
 
 Short course
@@ -279,12 +278,11 @@ A research ethics certificate course provided by the Collaborative Institutional
 
 Selected Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
-
 ### NRF SARChI Health Economics Bursary
 
 HEU
 
-Cape Town, ZAR
+Cape Town, ZA
 
 2019
 
@@ -294,7 +292,7 @@ Awarded by the National Research Chair of Health Economics
 
 Cosmopolitan Karoo
 
-Stellenbosch, ZAR
+Stellenbosch, ZA
 
 2018
 
@@ -303,12 +301,11 @@ Awarded by the National Research Chair of Sociology of Land, Environment and Sus
 
 Selected Volunteering {data-icon=hand-paper}
 --------------------------------------------------------------------------------
-
 ### Peer Mentor
 
 MPH Mentor Programme
 
-Cape Town, ZAR
+Cape Town, ZA
 
 2020
 
@@ -318,7 +315,7 @@ Received mentor training to help orientate first year UCT MPH students
 
 Inkhamva Youth
 
-Cape Town, ZAR
+Cape Town, ZA
 
 2019
 
